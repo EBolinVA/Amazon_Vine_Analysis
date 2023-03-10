@@ -29,4 +29,17 @@ The final piece of code answers the last question:
 
 
 ## Summary
+Over 2 million reviews were filtered down to a dataset of 39,976 reviews that had at least 20 votes, and of those votes, at least half were considered to be helpful votes. 
 
+From that dataset of 39,976 reviews, there were 107 reviews where "vine" = 'Y': a paid Vine review. The 39,869 remaining reviews were unpaid, or non-Vine, reviews. Already we can see that there is an imbalance in the classes of data. 
+
+Of the 39,976 Vine and non-Vine reviews, there were 21,061 reviews with 5-star ratings.
+
+Of the 21,061 reviews with 5-star ratings, 56 were Vine reviews. In other words, 0.27% of the Vine reviews had a 5-star rating.
+
+Of the 21,061 reviews with a 5-star rating, 21,005 were non-Vine reviews. 99.73% of the non-Vine reviews were 5-star rated.
+
+## Further consideration
+I would run the statistics again to calculate percentages of reviews within like types:
+(5-star Vine reviews/total Vine reviews)* 100
+(5-star non-Vine reviews/total non-Vine reviews)* 100
